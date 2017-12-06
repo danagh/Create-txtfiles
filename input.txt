@@ -1,0 +1,393 @@
+DNDC_Input_Parameters
+----------------------------------------
+Site_infomation
+                        
+__Site_name                                                           1
+__Simulated_years                                                    12
+__Latitude                                                      59.3400
+__Daily_record                                                        1
+__Unit_system                                                         0
+__None                                                   0
+__None                                                                0
+__None                                                                0
+__None                                                                0
+__None                                                                0
+----------------------------------------
+Climate_data                            
+
+__Climate_data_type                                                   2
+__N_in_rainfall                                                  1.1900
+__Air_NH3_concentration                                          0.1500
+__Air_CO2_concentration                             350.0000
+__Climate_files                                                      12
+1                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_86.txt
+2                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_87.txt
+3                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_88.txt
+4                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_86.txt
+5                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_87.txt
+6                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_88.txt
+7                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_86.txt
+8                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_87.txt
+9                                        C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_88.txt
+10                                       C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_86.txt
+11                                       C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_87.txt
+12                                       C:\DNDC\klimat\Climate_Örebro_86-88\Klimat_Orebro_88.txt
+__Climate_file_mode                                                   0
+__CO2_increase_rate                                              0.0000
+__None                                                                0
+__None                                                                0
+__None                                                                0
+__None                                                                0
+__None                                                                0
+----------------------------------------
+Soil_data                               
+
+__Land_use_ID                                                         1
+__Soil_texture_ID                                                     8
+__Bulk_density                                                   1.2900
+__pH                                                             6.7000
+__Clay_fraction                                                  0.2900
+__Porosity                                                       0.5120
+__Bypass_flow                                                    0.0000
+__Field_capacity                                                 0.6740
+__Wilting_point                                                  0.3800
+__Hydro_conductivity                                             0.0150
+__Top_layer_SOC                                                  0.0261
+__Litter_fraction                                                0.0100
+__Humads_fraction                                                0.0900
+__Humus_fraction                                                 0.9000
+__Adjusted_litter_factor                                         1.0000
+__Adjusted_humads_factor                                         1.0000
+__Adjusted_humus_factor                                          1.0000
+__Humads_C/N                                                    10.0000
+__Humus_C/N                                                     10.0000
+__Black_C                                                        0.0000
+__Black_C_C/N                                                    0.0000
+__SOC_profile_A                                                  0.2000
+__SOC_profile_B                                                  2.0000
+__Initial_nitrate_ppm                                            0.5000
+__Initial_ammonium_ppm                                           0.0500
+__Soil_microbial_index                                           1.0000
+__Soil_slope                                                     0.0000
+__Lateral_influx_index                                           1.0000
+__Watertable_depth                                               1.0000
+__Deep_Percolation_Fraction                                      9.9900
+__Soil_salinity                                                  0.0000
+__SCS_curve_use                                                       0
+__Deep_WaterPoolBD                                               1.2900
+__Soil_Profile_Type                                                   0
+__Profile_File_Name                                                        
+__None                                                                0
+__None                                                                0
+__None                                                                0
+__None                                                                0
+__None                                                                0
+----------------------------------------
+Crop_data                               
+
+Cropping_systems                                                      1
+
+__Cropping_system                                                     1
+__Total_years                                                        12
+__Years_of_a_cycle                                                    3
+
+____Year                                                              1
+____Crops                                                             1
+______Crop#                                                           1
+______Crop_ID                                                        89
+______Planting_month                                                  1
+______Planting_day                                                    1
+______Harvest_month                                                  12
+______Harvest_day                                                    31
+______Harvest_year                                                    1
+______Residue_left_in_field                                      0.0000
+______Maximum_yield                                             65.0000
+______Leaf_fraction                                              0.2950
+______Stem_fraction                                              0.2950
+______Root_fraction                                              0.4000
+______Grain_fraction                                             0.0100
+______Leaf_C/N                                                  31.0000
+______Stem_C/N                                                  31.0000
+______Root_C/N                                                  45.0000
+______Grain_C/N                                                 31.0000
+______Accumulative_temperature                                2150.0000
+______Optimum_temperature                                       21.0000
+______Water_requirement                                        200.0000
+______N_fixation_index                                           0.0000
+______Vascularity                                                0.0000
+______If_cover_crop                                                   0
+______If_perennial_crop                                               1
+______If_transplanted                                                 0
+______Tree_maturity_age                                          0.0000
+______Tree_current_age                                           0.0000
+______Tree_max_leaf                                              0.0000
+______Tree_min_leaf                                              0.0000
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+
+----------------------------------------
+____Till_applications                                                 0
+----------------------------------------
+____Fertilizer_applications                                           1
+______Fertilizing#                                                    1
+______Fertilizing_month                                               6
+______Fertilizing_day                                                10
+______Fertilizing_method                                              1
+______Fertilizing_depth                                         10.0000
+______Nitrate                                                    0.0000
+______Ammonium_bicarbonate                                       0.0000
+______Urea                                                       0.0000
+______Anhydrous_ammonia                                          0.0000
+______Ammonium                                                  60.0000
+______Sulphate                                                   0.0000
+______Phosphate                                                  0.0000
+______Slow_release_rate                                          1.0000
+______Nitrification_inhibitor_efficiency                         0.0000
+______Nitrification_inhibitor_duration                           0.0000
+______Urease_inhibitor_efficiency                                0.0000
+______Urease_inhibitor_duration                                  0.0000
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+____Fertilization_option                                              0
+----------------------------------------
+____Manure_applications                                               0
+----------------------------------------
+____Film_applications                                                 0
+____Method                                                            0
+----------------------------------------
+____Flood_applications                                                0
+____Water_control                                                     0
+____Flood_water_N                                                1.0000
+____Leak_rate                                                    0.0000
+____Water_gather_index                                           1.0000
+____Watertable_file                                        None0.000000
+____Empirical_para_1                                             0.0000
+____Empirical_para_2                                             0.0000
+____Empirical_para_3                                             0.0000
+____Empirical_para_4                                             0.0000
+____Empirical_para_5                                             0.0000
+____Empirical_para_6                                    -107374176.0000
+----------------------------------------
+____Irrigation_applications                                           0
+____Irrigation_control                                                0
+____Irrigation_index                                             0.0000
+____Irrigation_method                                                 0
+----------------------------------------
+____Grazing_applications                                              0
+----------------------------------------
+____Cut_applications                                                  0
+
+____Year                                                              2
+____Crops                                                             0
+----------------------------------------
+____Till_applications                                                 0
+----------------------------------------
+____Fertilizer_applications                                           2
+______Fertilizing#                                                    1
+______Fertilizing_month                                               5
+______Fertilizing_day                                                 1
+______Fertilizing_method                                              1
+______Fertilizing_depth                                         10.0000
+______Nitrate                                                    0.0000
+______Ammonium_bicarbonate                                       0.0000
+______Urea                                                       0.0000
+______Anhydrous_ammonia                                          0.0000
+______Ammonium                                                  80.0000
+______Sulphate                                                   0.0000
+______Phosphate                                                  0.0000
+______Slow_release_rate                                          1.0000
+______Nitrification_inhibitor_efficiency                         0.0000
+______Nitrification_inhibitor_duration                           0.0000
+______Urease_inhibitor_efficiency                                0.0000
+______Urease_inhibitor_duration                                  0.0000
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______Fertilizing#                                                    2
+______Fertilizing_month                                               6
+______Fertilizing_day                                                10
+______Fertilizing_method                                              1
+______Fertilizing_depth                                         10.0000
+______Nitrate                                                    0.0000
+______Ammonium_bicarbonate                                       0.0000
+______Urea                                                       0.0000
+______Anhydrous_ammonia                                          0.0000
+______Ammonium                                                  60.0000
+______Sulphate                                                   0.0000
+______Phosphate                                                  0.0000
+______Slow_release_rate                                          1.0000
+______Nitrification_inhibitor_efficiency                         0.0000
+______Nitrification_inhibitor_duration                           0.0000
+______Urease_inhibitor_efficiency                                0.0000
+______Urease_inhibitor_duration                                  0.0000
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+____Fertilization_option                                              0
+----------------------------------------
+____Manure_applications                                               0
+----------------------------------------
+____Film_applications                                                 0
+____Method                                                            0
+----------------------------------------
+____Flood_applications                                                0
+____Water_control                                                     0
+____Flood_water_N                                                1.0000
+____Leak_rate                                                    0.0000
+____Water_gather_index                                           1.0000
+____Watertable_file                                        None0.000000
+____Empirical_para_1                                             0.0000
+____Empirical_para_2                                             0.0000
+____Empirical_para_3                                             0.0000
+____Empirical_para_4                                             0.0000
+____Empirical_para_5                                             0.0000
+____Empirical_para_6                                    -107374176.0000
+----------------------------------------
+____Irrigation_applications                                           0
+____Irrigation_control                                                0
+____Irrigation_index                                             0.0000
+____Irrigation_method                                                 0
+----------------------------------------
+____Grazing_applications                                              0
+----------------------------------------
+____Cut_applications                                                  2
+______Cut#                                                            1
+______Cut_month                                                       6
+______Cut_day                                                        22
+______Cut_fraction                                               1.0000
+______Cut_part                                                        6
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______Cut#                                                            2
+______Cut_month                                                       8
+______Cut_day                                                        26
+______Cut_fraction                                               1.0000
+______Cut_part                                                        6
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+
+____Year                                                              3
+____Crops                                                             0
+----------------------------------------
+____Till_applications                                                 2
+______Till#                                                           1
+______Till_month                                                     11
+______Till_day                                                       11
+______Till_method                                                     7
+______Till#                                                           2
+______Till_month                                                     11
+______Till_day                                                       12
+______Till_method                                                     4
+----------------------------------------
+____Fertilizer_applications                                           2
+______Fertilizing#                                                    1
+______Fertilizing_month                                               5
+______Fertilizing_day                                                 1
+______Fertilizing_method                                              1
+______Fertilizing_depth                                         10.0000
+______Nitrate                                                    0.0000
+______Ammonium_bicarbonate                                       0.0000
+______Urea                                                       0.0000
+______Anhydrous_ammonia                                          0.0000
+______Ammonium                                                  80.0000
+______Sulphate                                                   0.0000
+______Phosphate                                                  0.0000
+______Slow_release_rate                                          1.0000
+______Nitrification_inhibitor_efficiency                         0.0000
+______Nitrification_inhibitor_duration                           0.0000
+______Urease_inhibitor_efficiency                                0.0000
+______Urease_inhibitor_duration                                  0.0000
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______Fertilizing#                                                    2
+______Fertilizing_month                                               6
+______Fertilizing_day                                                10
+______Fertilizing_method                                              1
+______Fertilizing_depth                                         10.0000
+______Nitrate                                                    0.0000
+______Ammonium_bicarbonate                                       0.0000
+______Urea                                                       0.0000
+______Anhydrous_ammonia                                          0.0000
+______Ammonium                                                  60.0000
+______Sulphate                                                   0.0000
+______Phosphate                                                  0.0000
+______Slow_release_rate                                          1.0000
+______Nitrification_inhibitor_efficiency                         0.0000
+______Nitrification_inhibitor_duration                           0.0000
+______Urease_inhibitor_efficiency                                0.0000
+______Urease_inhibitor_duration                                  0.0000
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+____Fertilization_option                                              0
+----------------------------------------
+____Manure_applications                                               0
+----------------------------------------
+____Film_applications                                                 0
+____Method                                                            0
+----------------------------------------
+____Flood_applications                                                0
+____Water_control                                                     0
+____Flood_water_N                                                1.0000
+____Leak_rate                                                    0.0000
+____Water_gather_index                                           1.0000
+____Watertable_file                                        None0.000000
+____Empirical_para_1                                             0.0000
+____Empirical_para_2                                             0.0000
+____Empirical_para_3                                             0.0000
+____Empirical_para_4                                             0.0000
+____Empirical_para_5                                             0.0000
+____Empirical_para_6                                    -107374176.0000
+----------------------------------------
+____Irrigation_applications                                           0
+____Irrigation_control                                                0
+____Irrigation_index                                             0.0000
+____Irrigation_method                                                 0
+----------------------------------------
+____Grazing_applications                                              0
+----------------------------------------
+____Cut_applications                                                  2
+______Cut#                                                            1
+______Cut_month                                                       6
+______Cut_day                                                        15
+______Cut_fraction                                               1.0000
+______Cut_part                                                        6
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______Cut#                                                            2
+______Cut_month                                                       9
+______Cut_day                                                        10
+______Cut_fraction                                               1.0000
+______Cut_part                                                        6
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+______None                                                            0
+----------------------------------------
