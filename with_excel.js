@@ -17,6 +17,9 @@ readStream.on('data', function(chunk) { // Get data from textfile
     lodash.forEach(splitData, function(split) { // Copy the original array so that the updated values can be put there instead of the original.
         output.push(split);
     });
+    var dirname = __dirname;
+    var outputBatch = [];
+    outputBatch[0] = 0;
     lodash.forEach(excelData, function(row, index) {
        if (index === 0) {
            headerIndexes = getHeaders(row, splitData); // Get the names of the values that will be changed
@@ -51,10 +54,19 @@ readStream.on('data', function(chunk) { // Get data from textfile
                if (err) {
                    return console.log(err);
                }
-               console.log('Changes saved');
+               // console.log('Changes saved');
            });
+           outputBatch[0] += 1;
+           outputBatch.push(dirname + '/Output_with_excel/' + row[0] + '.txt');
        }
     });
+    var outputBatchString = outputBatch.join('\r\n');
+    fs.writeFile('output_batch.txt', outputBatchString, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log('batch created');
+    })
 });
 
 function getHeaders(row, splitData) {
